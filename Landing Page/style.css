@@ -138,11 +138,64 @@
 
 .quote-container {
     width: 1200px;
-    border: 1px solid red;
     padding: 100px;
 }
 
 .quote-text {
-    border: 1px solid red;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
 
+.quote-writer {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 100px
+}
+
+.cta-container {
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    color: #F9FAF8;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+
+    button {
+        background-color: #3882f6; /* Green */
+        border: 2px solid #F9FAF8;
+        color: #F9FAF8;
+        padding: 5px 45px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 450;
+        border-radius: 5px;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+}
+
+
+.footer-wrapper {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #F9FAF8
 }
